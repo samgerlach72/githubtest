@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+    color: #000033;
+}
+
+
+
+
+/* Menu */
+.bg-light {
+    background-color: white !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000033;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3949AB;
+}
+.current-page{
+    font-weight: bold;
+}
+
+
+
+
+
+.large-photo{
+    width: 100%;
+}
+.page{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.text-and-image{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #CFD8DC;
+    padding: 5%;
+    margin: 5%;
+}
+.text{
+    background-color: none;
+    width: 100%;
+}
+.image-container{
+    width: 100%;
+}
+.intro{
+    font-size: 20px;
+}
+.small-photo{
+    width: 100%;
+}
+
+
+
+
+.bottom{
+    background-color: #000033;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.bottom-title{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-family: Snell Roundhand, cursive;
+    margin-bottom: 0%;
+}
+.bottom-menu{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.bottom-menu-item{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.bottom-menu-item:hover{
+    text-decoration: underline;
+    color: white;
+}
+.line{
+    height: 1px;
+    color: white;
+}
+.disclosure{
+    padding: 10px 20px 20px 10px;
+    color: white;
+    font-size: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 400px) {
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 999px) {
+.title{
+    padding: 20px;
+}
+.bottom{
+    align-items: center;
+    margin: 0px;
+}
+.bottom-title{
+    width: 33%;
+    margin: 5%;
+}
+.bottom-menu{
+    width: 33%;
+}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1000px) {
+.text-and-image{
+    padding: 0%;
+}
+.text{
+    width: 50%;
+    padding: 5%;
+}
+.image-container{
+    width: 50%;
+}
+.page {
+    width: 1000px;
+    margin: 0 auto;
+}
+.title{
+    padding: 20px;
+}
+.bottom{
+    align-items: center;
+}
+.bottom-title{
+    width: 25%;
+    margin: 5%;
+}
+.bottom-menu{
+    width: 25%;
+}
+}
